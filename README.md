@@ -9,7 +9,7 @@ You can check the live demo [here](http://chcepe-gbox.azurewebsites.net/ "here")
 
 Usage
 ------------
-Download `gbox.css` and `gbox.js` and link it to your HTML.
+Download  [`gbox.css`](http://chcepe-gbox.azurewebsites.net/gbox.css) and  [`gbox.js`](http://chcepe-gbox.azurewebsites.net/gbox.js) and link it to your HTML.
 ```javascript
 <link rel="stylesheet" type="text/css" media="screen" href="gbox.css" />
 <script src="gbox.js"></script>
