@@ -5,7 +5,7 @@ Gallery Box is an image gallery inspired from Lightbox, made using pure Javascri
 
 Demo
 ------------
-You can check the live [demo](http://chcepe-gbox.azurewebsites.net/ "demo") here.
+You can check the live demo [here](http://chcepe-gbox.azurewebsites.net/ "here").
 
 Usage
 ------------
