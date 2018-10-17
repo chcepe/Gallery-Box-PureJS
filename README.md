@@ -4,12 +4,10 @@
 Gallery Box is an image gallery inspired from Lightbox, made using pure Javascript.
 
 #Demo
-
 ------------
 You can check the live demo here.
 
 #Usage
-
 ------------
 Download `gbox.css` and `gbox.js` and link it to your HTML.
 ```javascript
