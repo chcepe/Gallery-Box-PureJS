@@ -1,0 +1,105 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 0;
+}
+
+li > #thumb{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.2s;
+}
+
+li > #thumb:hover{
+    opacity: 1;
+}
+
+#gallery-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#gallery-overlay #photo{
+    height: 400px;
+    border: solid #fff 10px;
+    border-radius: 10px;
+}
+
+#gallery-overlay > .photo{
+    position: relative;
+}
+
+#gallery-overlay #close{
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #000;
+    border: 5px solid #fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 100%;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+#gallery-overlay #sclose:hover{
+    background: #161616;
+}
+
+#gallery-overlay #next, #gallery-overlay #prev{
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#gallery-overlay #info{
+    position: absolute;
+    bottom: -30px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+#gallery-overlay #next:hover, #gallery-overlay #prev:hover, #gallery-overlay #next:active, #gallery-overlay #prev:active{
+    opacity: 1;
+}
+
+#gallery-overlay #next{
+    right: -60px;
+}
+
+#gallery-overlay #prev{
+    left: -50px;
+}
