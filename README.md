@@ -1,14 +1,14 @@
-###Gallery Box
+#Gallery Box
 ------------
 
 Gallery Box is an image gallery inspired from Lightbox, made using pure Javascript.
 
-###Demo
+#Demo
 
 ------------
 You can check the live demo here.
 
-###Usage
+#Usage
 
 ------------
 Download `gbox.css` and `gbox.js` and link it to your HTML.
@@ -29,7 +29,7 @@ Format of elements inside #gbox should be like this:
 ```
 For more information please check the demo site.
 
-###Browser Support
+#Browser Support
 ------------
 Gallery Box is tested in the following browsers:
 - Firefox
