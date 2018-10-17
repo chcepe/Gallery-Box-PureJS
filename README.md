@@ -3,6 +3,8 @@ Gallery Box
 
 Gallery Box is an image gallery inspired from Lightbox, made using pure Javascript.
 
+[![Youtube](https://img.youtube.com/vi/zcw4qFTcoT8/0.jpg)](https://www.youtube.com/watch?v=zcw4qFTcoT8)
+
 Demo
 ------------
 You can check the live demo [here](http://chcepe-gbox.azurewebsites.net/ "here").
