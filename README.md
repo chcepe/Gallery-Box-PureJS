@@ -27,7 +27,7 @@ Format of elements inside #gbox should be like this:
 	<li><img src="" id="thumb"></li>
 </ul>
 ```
-For more information please check the demo site.
+For more information please check the [demo site](http://chcepe-gbox.azurewebsites.net/ "demo site").
 
 #Browser Support
 ------------
