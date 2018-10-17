@@ -3,11 +3,11 @@ var current_photo = 1;
 var images = null;
 document.addEventListener("click", function (e) {
     if (e.srcElement.id == "thumb") {  // ON THUMB CLICK
-        images = (images == null ? document.getElementById("photos").getElementsByTagName("img").length : images);
+        images = (images == null ? document.getElementById("gbox").getElementsByTagName("img").length : images);
 
 
         //ORDERING PHOTOS INDEX
-        var photos = document.getElementById("photos").getElementsByTagName("li");
+        var photos = document.getElementById("gbox").getElementsByTagName("li");
         for (var i = 0, len = photos.length; i < len; i++) {
             (photos[i].firstChild.setAttribute("n", (i + 1)));
         }
@@ -23,7 +23,7 @@ document.addEventListener("click", function (e) {
         } else {
             current_photo--;
         }
-        var elements = document.getElementById("photos").getElementsByTagName("li");
+        var elements = document.getElementById("gbox").getElementsByTagName("li");
         var src = (elements.item(current_photo - 1).getElementsByTagName("img")[0].getAttribute("src"));
         document.getElementById("photo").src = src;
         npButtons();
